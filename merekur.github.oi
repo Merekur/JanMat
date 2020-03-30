@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+<!--    <meta charset="iso-8859-1"> to ten gorszy-->
+    <title>tytul</title>
+  </head>
+  <body>
+    <h1>Nie mam kotow :(</h1>
+    <ul>
+        <li>Ale moj sasiad ma</li>
+        <li>ma duuzo kotow</li>
+    </ul>
+    <a href="https://github.com/Merekur/JanMat">
+      <img src="logo.png" title="Moje konto">
+    </a>
+  <p>Japanese example: ご飯が熱い。</p>
+<p>Polish example: łażący różowo-żółty</p>
+  <p>To jest przykładowy <span>tekst w span</span></p>
+
+<p>To jest przykładowy <div>tekst w div</div></p>
+<!--  <form>-->
+<!--<input type="date" id="name" name="name">-->
+<!--</form>-->
+  <form>
+  <label for="tytul">Tytuł</label>
+<input type="text" id="tytul" name="name">
+  <br>
+  <label for="name">Autor</label>
+<input type="text" id="name" name="name">
+    <br>
+  <label for="data">Data Wydania</label>
+<input type="date" id="data" name="name">
+    <br>
+  <label for="data">Kolor okładki</label>
+<input type="checkbox" id="kolor" name="name">
+
+<br>
+  <label for="zdj">Zdjecie okładki</label>
+<input type="file" id="zdj" name="name">
+    <br>
+<button type="submit">Resetuj</button>
+<button type="submit">Wyślij</button>
+</form>
+  </body>
+</html>
+
+
+
